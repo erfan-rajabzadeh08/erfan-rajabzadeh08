@@ -1,6 +1,6 @@
 <h2 align="left">About Me 🚀</h2>
 
-###
+### 
 
 <p align="left">Hi! I’m a Front-End Developer with a passion for crafting unique and engaging digital experiences. 🎨✨ There’s nothing I love more than transforming static designs and raw ideas into interactive, dynamic web applications. Continuous learning is a core part of who I am—I’m always excited to explore new technologies and enhance my skills.</p>
 
