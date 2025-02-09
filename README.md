@@ -29,7 +29,6 @@
 <h4 align="center">📩 If you’d like to collaborate, share experiences, or just have a friendly chat, feel free to reach out! I’d love to connect with creative and passionate people. 😊</h4>
 
 ###
-![219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521](https://github.com/user-attachments/assets/4de06133-7f31-4390-99b0-41a1d8420685)
 
 <div align="center">
   <a href="in/erfan-rajabzadeh80" target="_blank">
