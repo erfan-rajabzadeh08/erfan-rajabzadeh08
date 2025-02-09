@@ -2,16 +2,16 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # اجرای هر روز در نیمه‌شب UTC
-  workflow_dispatch:
+    - cron: "0 0 1 1 *"  
+    - cron: "0 0 1 7 *" 
+
+  workflow_dispatch:  
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -27,5 +27,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add dist/snake.svg
-          git commit -m "Updated snake animation" || echo "No changes to commit"
+          git commit -m "Updated snake animation for 2024-2025" || echo "No changes to commit"
           git push
